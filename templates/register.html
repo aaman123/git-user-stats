@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learn Python: Popular GitHub Users (by ⭐️) With Flask</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    
+    </head>
+
+    <body>
+        <div class="container">
+        
+        <div class="form-group">
+        <h1 class="form-check-label">Register</h1>
+
+        <h2>
+            Submit your favorite city!
+        </h2>
+        <form method="post" action="/submit">
+            <p>Name: <input type="text" name="name"></p>
+            <p>Email: <input type="text" name="email"></p>
+            <p>Password: <input type="text" name="password"></p>
+            <p><input type="submit"></p>
+        </form>
+        
+    </div>
+        </div>
+
+    <!-- <div class="container">
+        <h1>Popular GitHub users (by ⭐️)</h1>
+        
+    </div> -->
+    </body>
+
+</html>
